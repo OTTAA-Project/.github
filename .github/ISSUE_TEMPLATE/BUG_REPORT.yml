@@ -1,5 +1,6 @@
 name: Bug Report
-description: File a bug report
+description: Found a bug report and want to report it! 
+
 title: "[Bug]: "
 labels: ["bug"]
 assignees:
