@@ -24,7 +24,7 @@ body:
       label: What is this about?
       description: Please use the As a/I want to/So that style to describe what you want. 
       placeholder: Tell us more!
-      value: "A bug happened!"
+      value: "As a ... I want to... So that..."
     validations:
       required: true
   - type: dropdown
@@ -40,7 +40,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/OTTAA-Project/.github/blob/main/.github/CODE_OF_CONDUCT.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
