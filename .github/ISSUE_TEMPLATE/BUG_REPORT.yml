@@ -19,13 +19,22 @@ body:
     validations:
       required: false
   - type: input
-    id: prevalence
+    id: rama
     attributes:
-      label: Bug prevalence
-      description: "How often do you or others encounter this bug?"
-      placeholder: "Whenever I visit the user account page (1-2 times a week)"
+      label: Branch name
+      description: "What branch are you working on?"
+      placeholder: "master/development/..."
     validations:
       required: true
+  - type: input
+    id: flutterver
+    attributes:
+      label: Flutter & Dart version
+      description: "What's you current Flutter and Dart version?"
+      placeholder: "Did you run flutter doctor?"
+    validations:
+      required: true
+  
   - type: textarea
     id: what-happened
     attributes:
