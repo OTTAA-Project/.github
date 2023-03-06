@@ -17,8 +17,7 @@ body:
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:
-      required: false
-      
+      required: false    
   - type: input
     id: branch
     attributes:
@@ -27,7 +26,6 @@ body:
       placeholder: master/development
      validations:
       required: true
-      
   - type: input
     id: flutterversion
     attributes:
@@ -36,7 +34,6 @@ body:
       placeholder: 3.x.x
      validations:
       required: true
-  
   - type: textarea
     id: steps
     attributes:
@@ -46,7 +43,6 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-      
   - type: textarea
     id: what-happened
     attributes:
@@ -55,8 +51,7 @@ body:
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
-      required: true
-      
+      required: true  
   - type: dropdown
     id: browsers
     attributes:
@@ -66,14 +61,12 @@ body:
         - Chrome (WebApp)
         - Android
         - iOS
-        
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-      
   - type: checkboxes
     id: terms
     attributes:
