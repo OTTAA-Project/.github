@@ -1,6 +1,5 @@
-name: Bug Report 
-description: Found a bug report and want to report it! 
-
+name: Bug Report
+description: Found a bug report and want to report it!
 title: "[Bug]: "
 labels: ["bug"]
 assignees:
@@ -17,7 +16,7 @@ body:
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:
-      required: false    
+      required: false
   - type: input
     id: branch
     attributes:
@@ -51,7 +50,7 @@ body:
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
-      required: true  
+      required: true
   - type: dropdown
     id: browsers
     attributes:
