@@ -18,6 +18,14 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
+  - type: input
+    id: branchid
+    attributes:
+      label: Current Branch
+      description: What branch are you currently working on?
+      placeholder: master/development
+     validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
