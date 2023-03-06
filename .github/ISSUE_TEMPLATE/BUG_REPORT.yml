@@ -25,7 +25,7 @@ body:
       description: What branch are you currently working on?
       placeholder: master/development
      validations:
-      required: true
+      required: false
   - type: input
     id: flutterversion
     attributes:
