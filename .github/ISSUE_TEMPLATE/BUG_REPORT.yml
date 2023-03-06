@@ -34,7 +34,15 @@ body:
       placeholder: "Did you run flutter doctor?"
     validations:
       required: true
-  
+  - type: textarea
+    id: how
+    attributes:
+      label: How are you running it?
+      description: Please tell us, step-by-step, how are you trying to run the code?
+      placeholder: flutter clean...pub get...
+      value: "My steps are"
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
