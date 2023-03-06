@@ -40,7 +40,7 @@ body:
       label: How are you running it?
       description: Please tell us, step-by-step, how are you trying to run the code?
       placeholder: flutter clean...pub get...
-      value: "My steps are"
+      value: "My steps are flutter clean...pub get..."
     validations:
       required: true
   - type: textarea
