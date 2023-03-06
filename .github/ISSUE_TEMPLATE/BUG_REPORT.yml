@@ -18,31 +18,6 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: input
-    id: branchid
-    attributes:
-      label: Current Branch
-      description: What branch are you currently working on?
-      placeholder: master/development
-     validations:
-      required: false
-  - type: input
-    id: flutterversion
-    attributes:
-      label: Flutter version
-      description: What Flutter & Dart version do you have?
-      placeholder: 3.x.x
-     validations:
-      required: true
-  - type: textarea
-    id: steps
-    attributes:
-      label: How did it happen?
-      description: Please tell us step by step what commands did you use to get here
-      placeholder: flutter clean ... pub get ... 
-      value: "A bug happened!"
-    validations:
-      required: true
   - type: textarea
     id: what-happened
     attributes:
